@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ThessEscape</string>
+    <string name="welcome">Welcome to ThessEscape</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+</resources>
