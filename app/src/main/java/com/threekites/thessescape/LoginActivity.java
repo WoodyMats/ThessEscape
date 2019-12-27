@@ -2,6 +2,7 @@ package com.threekites.thessescape;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -32,6 +33,8 @@ public class LoginActivity extends AppCompatActivity {
         signInButton.setOnClickListener(v -> {
             if (emailEditText.getText().toString().equals(username) && passwordEditText.getText().toString().equals(password)) {
                 Toast.makeText(LoginActivity.this, "Login Successfully!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                startActivity(intent);
             } else {
                 Toast.makeText(LoginActivity.this, "Login Error! WRONG CREDENTIALS", Toast.LENGTH_SHORT).show();
             }
