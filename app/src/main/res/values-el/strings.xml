@@ -6,4 +6,15 @@
     <string name="signIn">Είσοδος</string>
     <string name="signUp">Εγγραφή</string>
     <string name="welcome">Καλωσήρθατε στο ThessEscape</string>
+    <string name="username">Όνομα Χρήστη</string>
+
+    <!--  Dialogs  -->
+    <string name="ok">OK</string>
+    <string name="loading">Φόρτωση</string>
+    <string name="pleaseWait">Παρακαλώ Περιμένετε…</string>
+    <string name="error">Σφάλμα</string>
+    <string name="success">Επιτυχία</string>
+    <string name="userCreated">Ο νέος χρήστης δημιουργήθηκε επιτυχώς!</string>
+    <string name="signUpError">Προέκυψε σφάλμα κατά τη δημιουργία του νέου χρήστη. Παρακαλώ ελέγξτε ότι έχετε πρόσβαση στο ίντερνετ και προσπαθήστε ξανά αργότερα!</string>
+
 </resources>

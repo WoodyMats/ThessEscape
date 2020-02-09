@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundColor"
-    tools:context=".LoginActivity">
+    tools:context=".Activities.LoginActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -30,7 +30,7 @@
         android:inputType="textEmailAddress"
         android:padding="12dp"
         android:textColor="@color/colorWhite"
-        android:textColorHint="@color/colorWhiteTrnasparent"
+        android:textColorHint="@color/colorWhiteTransparent"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
@@ -47,7 +47,7 @@
         android:inputType="textPassword"
         android:padding="12dp"
         android:textColor="@color/colorWhite"
-        android:textColorHint="@color/colorWhiteTrnasparent"
+        android:textColorHint="@color/colorWhiteTransparent"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"

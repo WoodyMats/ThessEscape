@@ -1,8 +1,23 @@
 <resources>
+
+    <!--  Main Activity  -->
     <string name="app_name">ThessEscape</string>
     <string name="welcome">Welcome to ThessEscape</string>
+
+    <!--  SignUp Activity  -->
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="signIn">Sign In</string>
     <string name="signUp">Sign Up</string>
+    <string name="username">Username</string>
+
+    <!--  Dialogs  -->
+    <string name="ok">OK</string>
+    <string name="loading">Loading</string>
+    <string name="pleaseWait">Please Wait…</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="userCreated">User created successfully</string>
+    <string name="signUpError">An error has occurred while creating user. Please check your internet connection and try again later!</string>
+
 </resources>
